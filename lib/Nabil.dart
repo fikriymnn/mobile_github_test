@@ -12,7 +12,7 @@ class _NabilState extends State<Nabil> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Nabil'),
+        title: Text('Page Nabil'),
       ),
       body: Text('Nabil'),
     );
