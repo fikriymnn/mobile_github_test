@@ -21,6 +21,7 @@ class _NabilState extends State<Nabil> {
           color: Colors.blue,
           borderRadius: BorderRadius.circular(50),
         ),
+        child: Text("iqbaal bau"),
       ),
     );
   }
