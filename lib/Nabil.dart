@@ -17,7 +17,10 @@ class _NabilState extends State<Nabil> {
       body: Container(
         height: 100,
         width: 100,
-        color: Colors.blue,
+        decoration: BoxDecoration(
+          color: Colors.blue,
+          borderRadius: BorderRadius.circular(50),
+        ),
       ),
     );
   }
