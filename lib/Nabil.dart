@@ -14,14 +14,33 @@ class _NabilState extends State<Nabil> {
       appBar: AppBar(
         title: Text('Page Nabil'),
       ),
-      body: Container(
-        height: 100,
-        width: 100,
-        decoration: BoxDecoration(
-          color: Colors.blue,
-          borderRadius: BorderRadius.circular(50),
-        ),
-        child: Text("iqbaal bau"),
+      body: ListView(
+        children: [
+          Container(
+            height: 200,
+            width: 200,
+            color: Colors.blue,
+            child: Text('Pa piqri'),
+          ),
+          Container(
+            height: 200,
+            width: 200,
+            color: Colors.blue,
+            child: Text('Lucifer'),
+          ),
+          Container(
+            height: 200,
+            width: 200,
+            color: Colors.blue,
+            child: Text('atroid'),
+          ),
+          Container(
+            height: 200,
+            width: 200,
+            color: Colors.blue,
+            child: Text('Baem'),
+          ),
+        ],
       ),
     );
   }
