@@ -19,19 +19,22 @@ class _ErvanpageState extends State<Ervanpage> {
         //menambah listview untuk nama kontak
         children: [
           ListTile(
-            title: Text("M Iqbal Fadillah"),
+            title: Text("Lucifer"),
           ),
           ListTile(
-            title: Text("M Iqbal Fadillah"),
+            title: Text("Astaroth"),
           ),
           ListTile(
-            title: Text("M Iqbal Fadillah"),
+            title: Text("Baal"),
           ),
           ListTile(
-            title: Text("M Iqbal Fadillah"),
+            title: Text("Beelzebub"),
           ),
           ListTile(
-            title: Text("M Iqbal Fadillah"),
+            title: Text("Satan"),
+          ),
+          ListTile(
+            title: Text("Nabil"),
           ),
         ],
       ),
