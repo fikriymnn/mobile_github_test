@@ -14,7 +14,11 @@ class _NabilState extends State<Nabil> {
       appBar: AppBar(
         title: Text('Page Nabil'),
       ),
-      body: Text('Nabil'),
+      body: Container(
+        height: 100,
+        width: 100,
+        color: Colors.blue,
+      ),
     );
   }
 }
