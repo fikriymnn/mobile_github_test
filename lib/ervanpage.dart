@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+
+class Ervanpage extends StatefulWidget {
+  const Ervanpage({super.key});
+
+  @override
+  State<Ervanpage> createState() => _ErvanpageState();
+}
+
+class _ErvanpageState extends State<Ervanpage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Contacts"),
+        backgroundColor: Colors.blue,
+      ), //mencoba
+      body: ListView(
+        //menambah listview untuk nama kontak
+        children: [
+          ListTile(
+            title: Text("M Iqbal Fadillah"),
+          ),
+          ListTile(
+            title: Text("M Iqbal Fadillah"),
+          ),
+          ListTile(
+            title: Text("M Iqbal Fadillah"),
+          ),
+          ListTile(
+            title: Text("M Iqbal Fadillah"),
+          ),
+          ListTile(
+            title: Text("M Iqbal Fadillah"),
+          ),
+        ],
+      ),
+    );
+  }
+}
